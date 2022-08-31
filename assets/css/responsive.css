@@ -1,0 +1,118 @@
+/* :: XX-Large devices */
+@media (max-width: 1399px) {
+    .team::before {
+        height: 90%;
+    }
+}
+
+/* :: X-Large devices */
+@media (max-width: 1199px) {
+    .header-swiper .handline {
+        line-height: 120px;
+        font-size: 80px;
+    }
+
+    .team::before {
+        height: 100%;
+    }
+}
+
+/* :: Large devices */
+@media (max-width: 991px) {
+
+
+    .nav-bar .content-box {
+        display: block !important;
+    }
+
+    .nav-bar .logo {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-bar .logo .open-nav-bar {
+        display: inline-block
+    }
+
+    .nav-bar .logo .open-nav-bar span {
+        width: 30px;
+        height: 3px;
+        border-radius: 3px;
+        background-color: #FFF;
+        display: block;
+    }
+
+    .nav-bar .logo .open-nav-bar:hover span {
+        background-color: #b19777;
+    }
+
+    .nav-bar .logo .open-nav-bar span:nth-of-type(2) {
+        margin: 5px 0;
+        width: 20px;
+        position: relative;
+        right: -10px;
+    }
+
+    .nav-bar .nav-bar-links {
+        display: none;
+        transition: unset;
+    }
+
+    .nav-bar .nav-bar-links.active {
+        background-color: #252531
+    }
+
+    .nav-bar .nav-bar-links.active .level-1 .item-level-1 {
+        display: block
+    }
+
+    .nav-bar .nav-bar-links.active .level-1 .item-level-1 .link-level-1 {
+        margin: 0;
+        padding: 15px;
+        border-bottom: 1px solid #36364e;
+    }
+
+    .search-box {
+        box-shadow: 1px 1px 17px 4px #00000059;
+    }
+}
+
+/* :: Medium devices */
+@media (max-width: 768px) {
+    .header-swiper .handline {
+        line-height: 1.7;
+        font-size: 60px;
+    }
+
+    .header-swiper .list-info li {
+        margin: 0 30px;
+    }
+
+    .about-company-swiper .img-box {
+        margin-bottom: 50px;
+    }
+}
+
+/* :: Small devices */
+@media (max-width: 575px) {
+    .header-swiper .list-info li {
+        display: block;
+        margin: 0 0 15px 0;
+        text-align: center;
+    }
+
+    .header-swiper .list-bottom {
+        display: block !important
+    }
+
+    .header-swiper .list-bottom li {
+        display: block;
+        text-align: center;
+    }
+
+    .header-swiper .list-bottom li:nth-of-type(2) {
+        margin: 25px 0;
+    }
+}
